@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    background: #f4f4f9;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: #34495e;
+}
+input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.btn-primary {
+    background: #3498db;
+    color: white;
+}
+.btn-primary:hover {
+    background: #2980b9;
+}
+.btn-edit {
+    background: #f39c12;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    display: inline-block;
+    margin-right: 0.3rem;
+    border-radius: 4px;
+}
+.btn-delete {
+    background: #e74c3c;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    display: inline-block;
+    border-radius: 4px;
+}
+.btn-restore {
+    background: #27ae60;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    display: inline-block;
+    border-radius: 4px;
+}
+.msg {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.success {
+    background: #d4edda;
+    color: #155724;
+}
+.error {
+    background: #f8d7da;
+    color: #721c24;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+th, td {
+    padding: 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background: #3498db;
+    color: white;
+}
+tr:hover {
+    background: #f9f9f9;
+}
+.archived {
+    opacity: 0.85;
+    background: #fff3cd;
+}
